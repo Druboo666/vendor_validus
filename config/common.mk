@@ -143,8 +143,8 @@ PRODUCT_PACKAGES += \
 ifeq ($(DEFAULT_ROOT_METHOD),rootless)
 else
 # Magisk Manager --> default root method
-PRODUCT_PACKAGES += \
-    MagiskManager
+#PRODUCT_PACKAGES += \
+    #MagiskManager
 # Magisk
 PRODUCT_COPY_FILES += \
    vendor/validus/prebuilt/common/magisk.zip:system/addon.d/magisk.zip
